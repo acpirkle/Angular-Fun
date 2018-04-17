@@ -1,0 +1,38 @@
+body{
+  background-image: url('img/access-black-and-white-blur-270514.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+  #pswrdgenerator_div {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+label{
+  color: #f5f5f5;
+}
+#pswrdgenerator_div{
+  max-width: 70vw;
+  margin: auto;
+}
+#pswdgenbtn{
+  margin-top: 32px;
+}
+#pswrd_suggested_div{
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #password_suggested{
+    width: fit-content;
+    overflow-x: auto;
+  }
+}
+#password_suggested{
+  width: fit-content;
+  background-color: #000;
+  color: #f5f5f5;
+  border: none;
+}

@@ -1,0 +1,46 @@
+@media only screen and (min-width: 768px) {
+  #angulartraining {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+#angulartraining {
+  max-width: 70vw;
+  margin: auto;
+}
+
+/* Angular Validation */
+form#angulartestform input.ng-invalid.ng-touched select.ng-invalid.ng-touched{
+  border-color: #b30000;
+}
+form#angulartestform input.ng-valid select.ng-valid{
+  border-color: #0A9945;
+}
+
+/* table title */
+.table-title{
+  text-align: center;
+}
+
+#contacts_table{
+  max-width: 100%;
+}
+#contacts_table th,td{
+  width: 150px;
+  overflow-x: auto;
+}
+
+/* Animations */
+.animateyoumf.ng-leave,.animateyoumf.ng-enter{
+  transition: all linear 0.5s;
+}
+.animateyoumf.ng-leave.ng-leave-active,.animateyoumf.ng-enter{
+  opacity: 0;
+  max-height: 0;
+}
+
+.animateyoumf.ng-enter.ng-enter-active,.animateyoumf.ng-move.ng-move-active{
+  opacity: 1;
+  max-height: 50px;
+}
