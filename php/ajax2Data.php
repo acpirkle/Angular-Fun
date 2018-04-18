@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "angular_training";
+$dbname = "angularlearning";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
