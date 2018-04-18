@@ -34,6 +34,7 @@ cntct.controller("cntctbk", function($scope, $http) {
 
   $scope.getcontacts();
 });
+angular.bootstrap(document.getElementById('contact_book'),['contacts']);
 
 pswrd.controller('pswrdgen', function($scope, $http, hexafy) {
   $scope.genOpt = {
@@ -58,5 +59,12 @@ pswrd.controller('pswrdgen', function($scope, $http, hexafy) {
 });
 
 jQuery(function ($) {
-  $('[data-toggle="tooltip"]').tooltip();
+  $('#cpypswrdbtn').click(function () {
+    var t = $(this);
+    t.tooltip({title:"Copied!",trigger:"manual"});
+    t.tooltip('show');
+    setTimeout(function(){
+      t.tooltip('hide');
+    },2000);
+  });
 });

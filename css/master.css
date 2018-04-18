@@ -1,16 +1,46 @@
-html {
+html,body {
+  /* position: relative; */
+  /* min-height: 100%; */
+  height: 100%;
+  color: #777;
+  margin: 0 0 60px 0 ;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+/* body {
+  height: 100%
+  margin-bottom: 60px;
+}*/
+#pswrd_background, #contact_background {
+  max-width: 100%;
   position: relative;
+  opacity: .65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pswrd_background{
+  background-image: url('img/access-black-and-white-blur-270514.jpg');
   min-height: 100%;
 }
-
-body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
+#contact_background{
+  background-image: url('img/adult-blank-business-326576.jpg');
+  min-height: 100%;
 }
-
+.centerpasswordgen{
+  position: absolute;
+  left: 0;
+  top: 33%;
+  width: 100%;
+  text-align: center;
+}
+.centercontacts{
+  padding-top: 10%;
+}
 .jumbotron{
   text-align:center;
-  background-color: #212529;
-  opacity: .6;
+  background: none;
   color: #fff;
 }
 /* icon color */
@@ -31,26 +61,11 @@ i{
   color: #fff;
 }
 .footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
-}
-
-tr{
-  max-width: 100%;
-  height: 32px;
-}
-table{
-  height: 500px;
-  display: -moz-groupbox;
-  table-layout: fixed;
-}
-tbody{
-  overflow-y: scroll;
-  height: 250px;
 }
 
 form label {
