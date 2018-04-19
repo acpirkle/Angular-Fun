@@ -1,4 +1,4 @@
-<div data-ng-app="securityhelper" data-ng-controller="pswrdgen" id="pswrdgenerator_div">
+<div data-ng-app="securityhelper" data-ng-controller="pswrdgen" id="pswrdgenerator_div" class="shadow">
   <header class="jumbotron col-12">
     <h3>Password Generator</h3>
   </header>

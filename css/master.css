@@ -1,17 +1,10 @@
 html,body {
-  /* position: relative; */
-  /* min-height: 100%; */
   height: 100%;
   color: #777;
   margin: 0 0 60px 0 ;
   font: 400 15px/1.8 "Lato", sans-serif;
 }
-
-/* body {
-  height: 100%
-  margin-bottom: 60px;
-}*/
-#pswrd_background, #contact_background {
+.parallax_background{
   max-width: 100%;
   position: relative;
   opacity: .65;
@@ -28,6 +21,10 @@ html,body {
   background-image: url('img/adult-blank-business-326576.jpg');
   min-height: 100%;
 }
+#gallery_background{
+  background-image: url('img/analogue-aperture-black-and-white-614077.jpg');
+  min-height: 100%;
+}
 .centerpasswordgen{
   position: absolute;
   left: 0;
@@ -35,7 +32,7 @@ html,body {
   width: 100%;
   text-align: center;
 }
-.centercontacts{
+.centercontents{
   padding-top: 10%;
 }
 .jumbotron{
@@ -60,12 +57,15 @@ i{
   background: #333;
   color: #fff;
 }
+.bg-custom{
+  background-color: #212529;
+}
 .footer {
   bottom: 0;
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  color: #fff;
 }
 
 form label {

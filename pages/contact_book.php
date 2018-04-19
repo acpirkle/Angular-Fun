@@ -1,4 +1,4 @@
-<div data-ng-app="contacts" data-ng-controller="cntctbk" id="contact_book">
+<div data-ng-app="contacts" data-ng-controller="cntctbk" id="contact_book" class="shadow">
   <header class="jumbotron col-12">
     <h3>Another Contact Book</h3>
   </header>

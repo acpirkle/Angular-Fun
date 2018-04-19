@@ -59,6 +59,19 @@ pswrd.controller('pswrdgen', function($scope, $http, hexafy) {
 });
 
 jQuery(function ($) {
+  $('body').scrollspy({target:".navbar", offset: 50});
+  $('#collapseNav a').on('click', function(event){
+    if(this.hash !== ""){
+      event.preventDefault();
+      var hash = this.hash;
+
+      $('html,body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
   $('#cpypswrdbtn').click(function () {
     var t = $(this);
     t.tooltip({title:"Copied!",trigger:"manual"});
