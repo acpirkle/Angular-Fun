@@ -3,5 +3,5 @@
 
 ### Password Generator  
 simple word concatonator that pulls from a MySql database 
-![Image of password generator section]
-(https://imagesforreadmeacpirkle.s3.amazonaws.com/angular-fun-password-generator.png)
+
+![Image of password generator section](https://imagesforreadmeacpirkle.s3.amazonaws.com/angular-fun-password-generator.png)
